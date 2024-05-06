@@ -267,7 +267,6 @@ header h2 {
 /*download app*/
 .download-app {
   width: 100%;
-  margin: 0 auto;
   height: auto;
   display: flex;
   gap: 83px;
@@ -286,8 +285,8 @@ header h2 {
 }
 
 .download-app img {
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
 }
 
 /*Questions*/
@@ -337,14 +336,21 @@ header h2 {
   background-color: #5271ff;
   border-radius: 10px;
   text-align: start;
-  padding: 30px 76px 30px 40px;
+  width: 408px;
+  height: 237px;
   margin: 0 auto;
+}
+
+.find-ai div article i,
+.find-ai div article h6,
+.find-ai div article p {
+  margin-left: 40px;
 }
 
 .find-ai article i {
   color: #e6ff84;
   font-size: 4rem;
-  margin-bottom: 31px;
+  margin: 35px 0 30px 0;
 }
 
 .find-ai h6 {
@@ -522,4 +528,8 @@ footer a {
 
 footer:last-of-type {
   padding-top: 0;
+}
+
+/*Responsive mobile 700px*/
+@media screen and (max-width: 700px) {
 }

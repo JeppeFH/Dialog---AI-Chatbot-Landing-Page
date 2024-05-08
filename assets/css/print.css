@@ -1,0 +1,135 @@
+nav,
+footer,
+.header-figure,
+.download-app {
+  display: none;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  color: black;
+  font-size: 7rem;
+}
+
+h4 {
+  font-size: 4rem;
+  color: black;
+}
+
+h6 {
+  color: black;
+}
+
+.questions h5,
+header h5 {
+  font-size: 3rem;
+  color: black;
+}
+
+header h5 {
+  text-align: center;
+  color: #e6ff84;
+}
+
+.questions img {
+  margin-left: 20px;
+}
+
+/*Find AI*/
+.ai-p {
+  display: none;
+}
+
+.find-ai p:nth-child(3) {
+  display: inline-block;
+  color: black;
+  font-size: 1.8rem;
+}
+
+.find-ai a {
+  display: none;
+}
+
+.find-ai h4 {
+  font-size: 3.8rem;
+}
+
+.find-ai div {
+  flex-wrap: wrap;
+}
+
+.find-ai div article {
+  background-color: #e6ff84;
+  flex: 1 1;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+
+.find-ai div article p {
+  font-size: 0.5rem;
+}
+
+/*Beyond text*/
+.beyond-text {
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.beyond-text img {
+  display: none;
+}
+
+.beyond-text article {
+  margin-right: 0;
+}
+
+.beyond-text h4 {
+  color: #e6ff84;
+  font-size: 3.8rem;
+  margin-bottom: 10px;
+}
+
+.beyond-text .login-btn {
+  display: none;
+}
+
+/*Welcome bot*/
+.welcome-chatbot {
+  padding-top: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  gap: 0;
+  flex-direction: column;
+}
+
+.welcome-chatbot .login-btn {
+  display: none;
+}
+
+.welcome-chatbot h3 {
+  font-size: 3.8rem;
+  color: #e6ff84;
+}
+
+.welcome-chatbot p {
+  color: black;
+}
+
+.welcome-chatbot article {
+  margin-left: 0;
+}
+
+.chatbot-circle {
+  display: none;
+}

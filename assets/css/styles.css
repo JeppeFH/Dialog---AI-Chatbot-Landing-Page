@@ -691,6 +691,7 @@ footer:last-of-type {
   padding-top: 0;
 }
 
+/*Media Print*/
 /*Responsive*/
 @media screen and (max-width: 1100px) {
   header article {

@@ -5,6 +5,7 @@ footer,
   display: none;
 }
 
+/*headings and p*/
 p {
   color: black;
 }
@@ -16,6 +17,7 @@ h1 {
 h2 {
   color: black;
   font-size: 7rem;
+  text-align: center;
 }
 
 h4 {
@@ -27,6 +29,7 @@ h6 {
   color: black;
 }
 
+/*header and questions*/
 .questions h5,
 header h5 {
   font-size: 3rem;
@@ -120,10 +123,12 @@ header h5 {
 .welcome-chatbot h3 {
   font-size: 3.8rem;
   color: #e6ff84;
+  text-align: center;
 }
 
 .welcome-chatbot p {
   color: black;
+  text-align: center;
 }
 
 .welcome-chatbot article {

@@ -696,19 +696,6 @@ footer:last-of-type {
 }
 
 /*Responsive*/
-@media screen and (max-width: 1100px) {
-  header article {
-    margin-left: 15px;
-  }
-  header h2 {
-    font-size: 5rem;
-  }
-
-  header h5 {
-    font-size: 3rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   /*Font size*/
   h1 {
@@ -928,5 +915,115 @@ footer:last-of-type {
 
   footer:last-child {
     padding-top: 0px;
+  }
+}
+
+/*Responsive scale-width shortening*/
+@media screen and (max-width: 1264px) {
+  .download-app h5 {
+    margin-left: 20px;
+    font-size: 3rem;
+  }
+
+  .chatbot-circle {
+    width: 300px;
+    aspect-ratio: 1/1;
+    top: 100px;
+    left: 75%;
+  }
+}
+
+/*Chatbot*/
+@media screen and (max-width: 1150px) {
+  .chatbot-circle {
+    width: 300px;
+    aspect-ratio: 1/1;
+    top: 70px;
+    left: 82%;
+  }
+
+  .welcome-chatbot h3 {
+    font-size: 5rem;
+  }
+
+  .welcome-chatbot p {
+    font-size: 1.4rem;
+  }
+
+  .welcome-chatbot article {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .chatbot-circle {
+    width: 200px;
+    aspect-ratio: 1/1;
+    top: 100px;
+    left: 82%;
+  }
+
+  .welcome-chatbot .login-btn {
+    font-size: 1.4rem;
+    padding: 15px 38px;
+    margin-bottom: 86px;
+  }
+
+  .welcome-chatbot h3 {
+    font-size: 4rem;
+  }
+
+  .welcome-chatbot p {
+    font-size: 1.1rem;
+  }
+
+  .welcome-chatbot article {
+    margin-left: 15px;
+  }
+}
+
+/*Questions*/
+@media screen and (max-width: 1229px) {
+  .questions img {
+    margin-left: 40px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .questions h1 {
+    font-size: 6rem;
+  }
+
+  .questions h5 {
+    font-size: 3rem;
+  }
+
+  /*Find AI*/
+  .find-ai h4 {
+    font-size: 4.2rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header article {
+    margin-left: 15px;
+  }
+  header h2 {
+    font-size: 5rem;
+  }
+
+  header h5 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .beyond-text img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .beyond-text h4 {
+    font-size: 3.5rem;
   }
 }

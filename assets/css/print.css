@@ -124,11 +124,13 @@ header h5 {
   font-size: 3.8rem;
   color: #e6ff84;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .welcome-chatbot p {
   color: black;
   text-align: center;
+  font-size: 1.8rem;
 }
 
 .welcome-chatbot article {

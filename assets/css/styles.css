@@ -447,7 +447,17 @@ header p:last-child {
   font-size: 1.1rem;
 }
 
-.find-ai p:nth-child(3) {
+.find-ai p {
+  margin-bottom: 60px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.find-ai div article p {
+  font-size: 1.1rem;
+}
+
+.find-ai-p-mobile {
   display: none;
 }
 
@@ -459,12 +469,6 @@ header p:last-child {
 
 .find-ai a:hover {
   text-decoration: underline;
-}
-
-.find-ai .ai-p {
-  margin-bottom: 60px;
-  font-size: 1.8rem;
-  color: white;
 }
 
 /*Beyond text*/
@@ -691,7 +695,6 @@ footer:last-of-type {
   padding-top: 0;
 }
 
-/*Media Print*/
 /*Responsive*/
 @media screen and (max-width: 1100px) {
   header article {
@@ -788,29 +791,25 @@ footer:last-of-type {
     margin-bottom: 10px;
   }
 
-  .find-ai .ai-p {
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 0 80px 30px 80px;
+  .find-ai p {
+    font-size: 1.4rem;
+    display: none;
   }
 
-  .find-ai p:nth-child(3) {
+  .find-ai .find-ai-p-mobile {
     display: inline-block;
     margin-bottom: 30px;
+    font-size: 1.4rem;
+  }
+
+  .find-ai div article p {
+    display: inline-block;
   }
 
   .find-ai div article:nth-child(4),
   .find-ai div article:nth-child(5),
   .find-ai div article:nth-child(6) {
     display: none;
-  }
-
-  .find-ai p {
-    display: none;
-  }
-
-  .find-ai p:last-child {
-    display: inline-block;
   }
 
   /*Beyond text*/
